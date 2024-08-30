@@ -48,7 +48,7 @@ function App() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-4 rounded shadow-lg">
               <a href="/desktop.jpg" target="_blank" rel="noopener noreferrer">
-                <img src="public/desktop.jpg" alt="desktop" className="w-full h-auto rounded mb-7"/>
+                <img src="/desktop.jpg" alt="desktop" className="w-full h-auto rounded mb-7"/>
               </a>
               <h3 className="text-xl font-semibold text-black mb-16">POS and Inventory System</h3>
               <div className="flex items-center">
@@ -58,7 +58,7 @@ function App() {
             </div>
             <div className="bg-white p-4 rounded shadow-lg">
               <a href="/web.png" target="_blank" rel="noopener noreferrer">
-                <img src="public/web.png" alt="web" className="w-full h-auto rounded mb-14"/>
+                <img src="/web.png" alt="web" className="w-full h-auto rounded mb-14"/>
               </a>
               <h3 className="text-xl font-semibold text-black mb-10">ST Health +: Clinic Information Management System</h3>
               <div className="flex flex-wrap items-center mt-2 ">
