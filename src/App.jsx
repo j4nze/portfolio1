@@ -41,7 +41,6 @@ function App() {
           <span className="text-sm font-medium transition-all group-hover:me-4 text-white"> Download Resume </span>
         </a>      
       </section>
-
         {/* PROJECT Section */}
         <section id="proj" className="h-screen p-8">
           <h2 className="text-3xl font-bold mb-10">Projects</h2>
