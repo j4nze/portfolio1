@@ -18,7 +18,7 @@ function App() {
         </p>
         <a
           className="group relative inline-flex items-center overflow-hidden rounded border border-current px-8 py-3 text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
-          href="src/assets/resume_BATULAN.pdf"
+          href="public/resume_BATULAN.pdf"
           download
         >
           <span className="absolute -end-full transition-all group-hover:end-4">
@@ -47,46 +47,46 @@ function App() {
           <h2 className="text-3xl font-bold mb-10">Projects</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-4 rounded shadow-lg">
-              <a href="src/assets/desktop.jpg" target="_blank" rel="noopener noreferrer">
-                <img src="src/assets/desktop.jpg" alt="desktop" className="w-full h-auto rounded mb-7"/>
+              <a href="public/desktop.jpg" target="_blank" rel="noopener noreferrer">
+                <img src="public/desktop.jpg" alt="desktop" className="w-full h-auto rounded mb-7"/>
               </a>
               <h3 className="text-xl font-semibold text-black mb-16">POS and Inventory System</h3>
               <div className="flex items-center">
-                <img src="src/assets/vb.png" alt="Visual Basic Logo" className="w-10 h-10 mr-2"/>
+                <img src="public/vb.png" alt="Visual Basic Logo" className="w-10 h-10 mr-2"/>
                 <span className="text-md text-black">Visual Basic</span>
               </div>
             </div>
             <div className="bg-white p-4 rounded shadow-lg">
-              <a href="src/assets/web.png" target="_blank" rel="noopener noreferrer">
-                <img src="src/assets/web.png" alt="web" className="w-full h-auto rounded mb-14"/>
+              <a href="public/web.png" target="_blank" rel="noopener noreferrer">
+                <img src="public/web.png" alt="web" className="w-full h-auto rounded mb-14"/>
               </a>
               <h3 className="text-xl font-semibold text-black mb-10">ST Health +: Clinic Information Management System</h3>
               <div className="flex flex-wrap items-center mt-2 ">
                 <div className="flex items-center mr-4 mb-2 mr-10">
-                  <img src="src/assets/mongodb.png" alt="MongoDB Logo" className="w-10 h-10 mr-2"/>
+                  <img src="public/mongodb.png" alt="MongoDB Logo" className="w-10 h-10 mr-2"/>
                   <span className="text-md text-black">MongoDB</span>
                 </div>
                 <div className="flex items-center mr-4 mb-2">
-                  <img src="src/assets/expressjs.png" alt="Express.js Logo" className="w-10 h-10 mr-2"/>
+                  <img src="public/expressjs.png" alt="Express.js Logo" className="w-10 h-10 mr-2"/>
                   <span className="text-md text-black">Express.js</span>
                 </div>
                 <div className="flex items-center mb-2 mr-14">
-                  <img src="src/assets/reactjs.png" alt="React.js Logo" className="w-10 h-10 mr-2"/>
+                  <img src="public/reactjs.png" alt="React.js Logo" className="w-10 h-10 mr-2"/>
                   <span className="text-md text-black">React.js</span>
                 </div>
                 <div className="flex items-center mr-4 mb-2">
-                  <img src="src/assets/nodejs.png" alt="Node.js Logo" className="w-10 h-10 mr-2"/>
+                  <img src="public/nodejs.png" alt="Node.js Logo" className="w-10 h-10 mr-2"/>
                   <span className="text-md text-black">Node.js</span>
                 </div>
               </div>
             </div>
             <div className="bg-white p-4 rounded shadow-lg">
-              <a href="src/assets/prototyping.jpg" target="_blank" rel="noopener noreferrer">
-                <img src="src/assets/prototyping.jpg" alt="prototyping" className="w-full h-auto rounded mb-10"/>
+              <a href="public/prototyping.jpg" target="_blank" rel="noopener noreferrer">
+                <img src="public/prototyping.jpg" alt="prototyping" className="w-full h-auto rounded mb-10"/>
               </a>
               <h3 className="text-xl font-semibold text-black mb-10">Bumo: Music Player with E-Book Reader Mobile Application</h3>
               <div className="flex items-center">
-                <img src="src/assets/adobexd.png" alt="Adobe XD Logo" className="w-10 h-10 mr-2"/>
+                <img src="public/adobexd.png" alt="Adobe XD Logo" className="w-10 h-10 mr-2"/>
                 <span className="text-md text-black">Adobe XD</span>
               </div>
             </div>
@@ -97,20 +97,20 @@ function App() {
           <h2 className="text-3xl font-bold mb-4">Certifications</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-4 rounded shadow-lg flex flex-col items-center">
-              <a href="src/assets/nc2.jpg" target="_blank" rel="noopener noreferrer">
-                <img src="src/assets/nc2.jpg" alt="nc2" className="w-auto rounded mb-2" style={{ height: '300px' }} />
+              <a href="public/nc2.jpg" target="_blank" rel="noopener noreferrer">
+                <img src="public/nc2.jpg" alt="nc2" className="w-auto rounded mb-2" style={{ height: '300px' }} />
               </a>
               <h3 className="text-xl font-semibold text-black">National Certificate II: <br></br>Computer System Servicing</h3>
             </div>
             <div className="bg-white p-4 rounded shadow-lg">
-              <a href="src/assets/public-def-cert.jpg" target="_blank" rel="noopener noreferrer">
-                <img src="src/assets/public-def-cert.jpg" alt="public-def-cert" className="w-full h-auto rounded mb-10"/>
+              <a href="public/public-def-cert.jpg" target="_blank" rel="noopener noreferrer">
+                <img src="public/public-def-cert.jpg" alt="public-def-cert" className="w-full h-auto rounded mb-10"/>
               </a>
               <h3 className="text-xl font-semibold text-black mb-10">Public Defense Certificate</h3>
             </div>
             <div className="bg-white p-4 rounded shadow-lg">
-              <a href="src/assets/prototyping-cert.jpg" target="_blank" rel="noopener noreferrer">
-                <img src="src/assets/prototyping-cert.jpg" alt="prototyping-cert" className="w-full h-auto rounded mb-10"/>
+              <a href="public/prototyping-cert.jpg" target="_blank" rel="noopener noreferrer">
+                <img src="public/prototyping-cert.jpg" alt="prototyping-cert" className="w-full h-auto rounded mb-10"/>
               </a>
               <h3 className="text-xl font-semibold text-black mb-10">Upscaled Webinar Series:<br></br>Prototyping</h3>
             </div>
